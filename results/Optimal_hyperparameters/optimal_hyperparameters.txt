@@ -1,0 +1,62 @@
+####################################################################  Machine Learning Optimal Hyperparameters ######################################################################
+
+🔧 Tuning Random Forest...
+Fitting 5 folds for each of 18 candidates, totalling 90 fits
+✅ Best RandomForest Parameters: {'max_depth': 10, 'min_samples_split': 2, 'n_estimators': 200}
+📈 Best Accuracy: 55.53 %
+
+🔧 Tuning Logistic Regression...
+Fitting 5 folds for each of 8 candidates, totalling 40 fits
+✅ Best LogisticRegression Parameters: {'C': 0.01, 'penalty': 'l2', 'solver': 'lbfgs'}
+📈 Best Accuracy: 56.54 %
+
+🔧 Tuning Linear SVC...
+Fitting 5 folds for each of 8 candidates, totalling 40 fits
+✅ Best LinearSVC Parameters: {'C': 0.1, 'max_iter': 1000}
+📈 Best Accuracy: 56.48 %
+
+🔧 Tuning XGBoost...
+Fitting 5 folds for each of 16 candidates, totalling 80 fits
+✅ Best XGBoost Parameters: {'eta': 0.01, 'max_depth': 3, 'n_estimators': 50, 'subsample': 1.0}
+📈 Best Accuracy: 56.9 %
+
+🔧 Tuning Decision Tree...
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+✅ Best DecisionTree Parameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_split': 10}
+📈 Best Accuracy: 54.98 %
+
+
+
+==================== Baseline ML Aggregated Accuracy ====================
+model
+LogisticRegression    56.40 %
+LinearSVC             56.34 %
+XGBoost               54.79 %
+RandomForest          53.72 %
+DecisionTree          53.69 %
+Name: accuracy, dtype: float64
+
+
+
+
+
+####################################################################  Deep Learning Optimal Hyperparameters ######################################################################
+
+
+✅ LSTM Best hyperparameters: {'hidden_size': 128, 'dropout': 0.3610363343271843, 'lr': 1.748865899948281e-05, 'batch_size': 16, 'epochs': 14}
+📈 LSTM Best validation accuracy: 0.5655533980582524
+
+
+✅ GRU Best hyperparameters: {'hidden_size': 128, 'dropout': 0.1763164848857204, 'lr': 1.2149778243044745e-05, 'batch_size': 64, 'epochs': 10}
+📈 GRU Best validation accuracy: 0.5685436893203883
+
+✅ Conv1D Best hyperparameters: {'num_filters': 128, 'kernel_size': 2, 'dropout': 0.4875215400275231, 'lr': 0.00010578936021097909, 'batch_size': 64, 'epochs': 17}
+📈 Conv1D Best validation accuracy: 0.5646601941747573
+
+
+==================== DL Aggregated Accuracy ====================
+model
+GRU       55.852427
+LSTM      55.716505
+Conv1D    55.712621
+Name: accuracy, dtype: float64

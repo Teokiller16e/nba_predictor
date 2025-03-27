@@ -1,0 +1,99 @@
+==================== DL Classification Reports ====================
+
+
+=== [DL Fold 1] ===
+| Model: LSTM
+Accuracy: 57.94%
+Precision (Win): 0.58 | Recall: 0.56 | F1: 0.57
+Precision (Loss): 0.57 | Recall: 0.60 | F1: 0.59
+
+| Model: GRU
+Accuracy: 58.10%
+Precision (Win): 0.58 | Recall: 0.59 | F1: 0.58
+Precision (Loss): 0.58 | Recall: 0.58 | F1: 0.58
+
+| Model: Conv1D
+Accuracy: 58.06%
+Precision (Win): 0.59 | Recall: 0.56 | F1: 0.57
+Precision (Loss): 0.58 | Recall: 0.60 | F1: 0.59
+
+
+=== [DL Fold 2] ===
+
+Model: LSTM
+Accuracy: 56.08%
+Precision (Win): 0.56 | Recall: 0.55 | F1: 0.56
+Precision (Loss): 0.56 | Recall: 0.57 | F1: 0.56
+
+Model: GRU
+Accuracy: 56.62%
+Precision (Win): 0.58 | Recall: 0.51 | F1: 0.54
+Precision (Loss): 0.56 | Recall: 0.62 | F1: 0.59
+
+Model: Conv1D
+Accuracy: 56.31%
+Precision (Win): 0.57 | Recall: 0.52 | F1: 0.54
+Precision (Loss): 0.56 | Recall: 0.61 | F1: 0.58
+
+
+=== [DL Fold 3] ===
+
+Model: LSTM
+Accuracy: 53.30%
+Precision (Win): 0.53 | Recall: 0.52 | F1: 0.53
+Precision (Loss): 0.53 | Recall: 0.54 | F1: 0.54
+
+Model: GRU
+Accuracy: 53.07%
+Precision (Win): 0.53 | Recall: 0.53 | F1: 0.53
+Precision (Loss): 0.53 | Recall: 0.53 | F1: 0.53
+
+Model: Conv1D
+Accuracy: 53.48%
+Precision (Win): 0.54 | Recall: 0.51 | F1: 0.52
+Precision (Loss): 0.53 | Recall: 0.56 | F1: 0.55
+
+
+=== [DL Fold 4] ===
+
+Model: LSTM
+Accuracy: 55.28%
+Precision (Win): 0.56 | Recall: 0.51 | F1: 0.53
+Precision (Loss): 0.55 | Recall: 0.60 | F1: 0.57
+
+Model: GRU
+Accuracy: 55.34%
+Precision (Win): 0.55 | Recall: 0.57 | F1: 0.56
+Precision (Loss): 0.55 | Recall: 0.54 | F1: 0.54
+
+Model: Conv1D
+Accuracy: 55.63%
+Precision (Win): 0.55 | Recall: 0.58 | F1: 0.57
+Precision (Loss): 0.56 | Recall: 0.53 | F1: 0.55
+
+
+=== [DL Fold 5] ===
+
+Model: LSTM
+Accuracy: 55.98%
+Precision (Win): 0.56 | Recall: 0.59 | F1: 0.57
+Precision (Loss): 0.56 | Recall: 0.53 | F1: 0.55
+
+Model: GRU
+Accuracy: 56.14%
+Precision (Win): 0.56 | Recall: 0.55 | F1: 0.56
+Precision (Loss): 0.56 | Recall: 0.57 | F1: 0.56
+
+Model: Conv1D
+Accuracy: 55.09%
+Precision (Win): 0.55 | Recall: 0.53 | F1: 0.54
+Precision (Loss): 0.55 | Recall: 0.57 | F1: 0.56
+
+
+
+==================== DL Aggregated Accuracy ====================
+model
+GRU       55.852427
+LSTM      55.716505
+Conv1D    55.712621
+Name: accuracy, dtype: float64

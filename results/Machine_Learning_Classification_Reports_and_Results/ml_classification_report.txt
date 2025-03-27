@@ -1,0 +1,152 @@
+==================== ML Classification Reports ====================
+
+=== [ML Fold 1] Predicting on seasons: [2015, 2016, 2017] ===
+
+Model: RandomForest
+Accuracy: 58.50%
+Win Precision: 0.59 | Recall: 0.58 | F1-score: 0.58
+Loss Precision: 0.58 | Recall: 0.59 | F1-score: 0.59
+
+Model: LogisticRegression
+Accuracy: 57.26%
+Win Precision: 0.57 | Recall: 0.57 | F1-score: 0.57
+Loss Precision: 0.57 | Recall: 0.57 | F1-score: 0.57
+
+Model: DecisionTree
+Accuracy: 58.08%
+Win Precision: 0.60 | Recall: 0.51 | F1-score: 0.55
+Loss Precision: 0.57 | Recall: 0.66 | F1-score: 0.61
+
+Model: LinearSVC
+Accuracy: 57.13%
+Win Precision: 0.57 | Recall: 0.57 | F1-score: 0.57
+Loss Precision: 0.57 | Recall: 0.57 | F1-score: 0.57
+
+Model: XGBoost
+Accuracy: 59.50%
+Win Precision: 0.59 | Recall: 0.60 | F1-score: 0.60
+Loss Precision: 0.60 | Recall: 0.59 | F1-score: 0.59
+
+
+=== [ML Fold 2] Predicting on seasons: [2017, 2018, 2019] ===
+
+Model: RandomForest
+Accuracy: 54.12%
+Win Precision: 0.54 | Recall: 0.54 | F1-score: 0.54
+Loss Precision: 0.54 | Recall: 0.54 | F1-score: 0.54
+
+Model: LogisticRegression
+Accuracy: 57.59%
+Win Precision: 0.58 | Recall: 0.58 | F1-score: 0.58
+Loss Precision: 0.57 | Recall: 0.57 | F1-score: 0.57
+
+Model: DecisionTree
+Accuracy: 54.49%
+Win Precision: 0.56 | Recall: 0.47 | F1-score: 0.51
+Loss Precision: 0.54 | Recall: 0.62 | F1-score: 0.57
+
+Model: LinearSVC
+Accuracy: 57.59%
+Win Precision: 0.58 | Recall: 0.58 | F1-score: 0.58
+Loss Precision: 0.57 | Recall: 0.57 | F1-score: 0.57
+
+Model: XGBoost
+Accuracy: 56.64%
+Win Precision: 0.57 | Recall: 0.56 | F1-score: 0.57
+Loss Precision: 0.56 | Recall: 0.57 | F1-score: 0.57
+
+
+=== [ML Fold 3] Predicting on seasons: [2019, 2020, 2021] ===
+
+Model: RandomForest
+Accuracy: 51.07%
+Win Precision: 0.51 | Recall: 0.51 | F1-score: 0.51
+Loss Precision: 0.51 | Recall: 0.51 | F1-score: 0.51
+
+Model: LogisticRegression
+Accuracy: 54.35%
+Win Precision: 0.54 | Recall: 0.56 | F1-score: 0.55
+Loss Precision: 0.54 | Recall: 0.53 | F1-score: 0.54
+
+Model: DecisionTree
+Accuracy: 51.30%
+Win Precision: 0.52 | Recall: 0.44 | F1-score: 0.48
+Loss Precision: 0.51 | Recall: 0.58 | F1-score: 0.54
+
+Model: LinearSVC
+Accuracy: 54.27%
+Win Precision: 0.54 | Recall: 0.56 | F1-score: 0.55
+Loss Precision: 0.54 | Recall: 0.53 | F1-score: 0.54
+
+Model: XGBoost
+Accuracy: 51.40%
+Win Precision: 0.51 | Recall: 0.51 | F1-score: 0.51
+Loss Precision: 0.51 | Recall: 0.52 | F1-score: 0.52
+
+
+=== [ML Fold 4] Predicting on seasons: [2021, 2022] ===
+
+Model: RandomForest
+Accuracy: 51.15%
+Win Precision: 0.51 | Recall: 0.50 | F1-score: 0.51
+Loss Precision: 0.51 | Recall: 0.52 | F1-score: 0.52
+
+Model: LogisticRegression
+Accuracy: 56.16%
+Win Precision: 0.56 | Recall: 0.58 | F1-score: 0.57
+Loss Precision: 0.56 | Recall: 0.54 | F1-score: 0.55
+
+Model: DecisionTree
+Accuracy: 51.15%
+Win Precision: 0.51 | Recall: 0.43 | F1-score: 0.47
+Loss Precision: 0.51 | Recall: 0.59 | F1-score: 0.55
+
+Model: LinearSVC
+Accuracy: 56.08%
+Win Precision: 0.56 | Recall: 0.58 | F1-score: 0.57
+Loss Precision: 0.56 | Recall: 0.54 | F1-score: 0.55
+
+Model: XGBoost
+Accuracy: 52.49%
+Win Precision: 0.53 | Recall: 0.52 | F1-score: 0.52
+Loss Precision: 0.52 | Recall: 0.53 | F1-score: 0.53
+
+
+
+=== [ML Fold 5] Predicting on seasons: [2022, 2023, 2024] ===
+
+Model: RandomForest
+Accuracy: 53.77%
+Win Precision: 0.54 | Recall: 0.54 | F1-score: 0.54
+Loss Precision: 0.54 | Recall: 0.54 | F1-score: 0.54
+
+Model: LogisticRegression
+Accuracy: 56.68%
+Win Precision: 0.57 | Recall: 0.58 | F1-score: 0.57
+Loss Precision: 0.57 | Recall: 0.56 | F1-score: 0.56
+
+Model: DecisionTree
+Accuracy: 53.46%
+Win Precision: 0.54 | Recall: 0.47 | F1-score: 0.50
+Loss Precision: 0.53 | Recall: 0.60 | F1-score: 0.56
+
+Model: LinearSVC
+Accuracy: 56.64%
+Win Precision: 0.57 | Recall: 0.58 | F1-score: 0.57
+Loss Precision: 0.57 | Recall: 0.56 | F1-score: 0.56
+
+Model: XGBoost
+Accuracy: 53.94%
+Win Precision: 0.54 | Recall: 0.54 | F1-score: 0.54
+Loss Precision: 0.54 | Recall: 0.54 | F1-score: 0.54
+
+
+
+==================== ML Aggregated Accuracy ====================
+model
+LogisticRegression    56.407767
+LinearSVC             56.341748
+XGBoost               54.792233
+RandomForest          53.720388
+DecisionTree          53.693204
+Name: accuracy, dtype: float64
