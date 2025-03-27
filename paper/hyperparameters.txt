@@ -1,0 +1,13 @@
+HyperParameters Techniques
+
+
+
+A) Machine Learning Models: 
+
+To determine the optimal hyperparameters for the machine learning models, we employed Grid Search with Time Series Cross-Validation. Specifically, we used GridSearchCV from scikit-learn in combination with TimeSeriesSplit to ensure that the temporal nature of the data was respected—training always preceded testing in time. For each model (Random Forest, Logistic Regression, Decision Tree, Linear SVC, and XGBoost), we defined a grid of candidate hyperparameters and systematically evaluated all combinations across multiple temporal folds. This approach helped identify the most effective parameter settings that generalized well over sequential data, thus improving model robustness and predictive performance in time-dependent scenarios.
+
+
+
+B) Deep Learning Models : 
+
+To determine the optimal hyperparameters for the deep learning models, we used Bayesian Optimization via Optuna, combined with a time-aware validation split. Specifically, we selected a fixed historical window of seasons for training and used the immediately following season as a validation set, maintaining temporal consistency and avoiding data leakage. For each model architecture LSTM, GRU, and Conv1D—we defined a search space over key hyperparameters such as hidden size, dropout rate, learning rate, batch size, and number of epochs. Optuna’s efficient sampling strategy allowed us to explore this space intelligently, focusing on promising configurations. This process resulted in fine-tuned neural network models optimized for sequential sports data, ensuring strong generalization to unseen future seasons.
