@@ -1,0 +1,167 @@
+==================== ML Classification Reports ====================
+
+=== [ML Fold 1] Predicting on seasons: [2015, 2016, 2017] ===
+
+
+| Model: RandomForest
+Accuracy: 68.62%
+Win Precision: 0.69 | Recall: 0.69 | F1-score: 0.69
+Loss Precision: 0.69 | Recall: 0.68 | F1-score: 0.69
+
+| Model: LogisticRegression
+Accuracy: 68.21%
+Win Precision: 0.68 | Recall: 0.69 | F1-score: 0.69
+Loss Precision: 0.69 | Recall: 0.67 | F1-score: 0.68
+
+| Model: LinearSVC
+Accuracy: 68.23%
+Win Precision: 0.68 | Recall: 0.69 | F1-score: 0.69
+Loss Precision: 0.69 | Recall: 0.67 | F1-score: 0.68
+
+| Model: XGBoost
+Accuracy: 66.27%
+Win Precision: 0.66 | Recall: 0.66 | F1-score: 0.66
+Loss Precision: 0.66 | Recall: 0.66 | F1-score: 0.66
+
+| Model: DecisionTree
+Accuracy: 63.44%
+Win Precision: 0.64 | Recall: 0.61 | F1-score: 0.63
+Loss Precision: 0.63 | Recall: 0.66 | F1-score: 0.64
+
+
+=== [ML Fold 2] Predicting on seasons: [2017, 2018, 2019] ===
+
+
+| Model: RandomForest
+Accuracy: 66.17%
+Win Precision: 0.66 | Recall: 0.67 | F1-score: 0.66
+Loss Precision: 0.66 | Recall: 0.66 | F1-score: 0.66
+
+| Model: LogisticRegression
+Accuracy: 65.71%
+Win Precision: 0.66 | Recall: 0.66 | F1-score: 0.66
+Loss Precision: 0.66 | Recall: 0.65 | F1-score: 0.65
+
+| Model: LinearSVC
+Accuracy: 65.73%
+Win Precision: 0.66 | Recall: 0.66 | F1-score: 0.66
+Loss Precision: 0.66 | Recall: 0.65 | F1-score: 0.65
+
+| Model: XGBoost
+Accuracy: 64.49%
+Win Precision: 0.65 | Recall: 0.65 | F1-score: 0.65
+Loss Precision: 0.64 | Recall: 0.64 | F1-score: 0.64
+
+| Model: DecisionTree
+Accuracy: 61.13%
+Win Precision: 0.61 | Recall: 0.61 | F1-score: 0.61
+Loss Precision: 0.61 | Recall: 0.61 | F1-score: 0.61
+
+
+=== [ML Fold 3] Predicting on seasons: [2019, 2020, 2021] ===
+
+
+| Model: RandomForest
+Accuracy: 65.44%
+Win Precision: 0.65 | Recall: 0.67 | F1-score: 0.66
+Loss Precision: 0.66 | Recall: 0.64 | F1-score: 0.65
+
+| Model: LogisticRegression
+Accuracy: 66.56%
+Win Precision: 0.66 | Recall: 0.67 | F1-score: 0.67
+Loss Precision: 0.67 | Recall: 0.66 | F1-score: 0.66
+
+| Model: LinearSVC
+Accuracy: 66.45%
+Win Precision: 0.66 | Recall: 0.67 | F1-score: 0.67
+Loss Precision: 0.67 | Recall: 0.66 | F1-score: 0.66
+
+| Model: XGBoost
+Accuracy: 64.60%
+Win Precision: 0.65 | Recall: 0.64 | F1-score: 0.64
+Loss Precision: 0.64 | Recall: 0.65 | F1-score: 0.65
+
+| Model: DecisionTree
+Accuracy: 62.58%
+Win Precision: 0.64 | Recall: 0.58 | F1-score: 0.61
+Loss Precision: 0.62 | Recall: 0.67 | F1-score: 0.64
+
+
+
+=== [ML Fold 4] Predicting on seasons: [2021, 2022] ===
+
+
+| Model: RandomForest
+Accuracy: 67.15%
+Win Precision: 0.67 | Recall: 0.68 | F1-score: 0.67
+Loss Precision: 0.67 | Recall: 0.66 | F1-score: 0.67
+
+| Model: LogisticRegression
+Accuracy: 67.79%
+Win Precision: 0.67 | Recall: 0.70 | F1-score: 0.68
+Loss Precision: 0.68 | Recall: 0.66 | F1-score: 0.67
+
+| Model: LinearSVC
+Accuracy: 67.79%
+Win Precision: 0.67 | Recall: 0.70 | F1-score: 0.68
+Loss Precision: 0.68 | Recall: 0.66 | F1-score: 0.67
+
+| Model: XGBoost
+Accuracy: 66.37%
+Win Precision: 0.66 | Recall: 0.66 | F1-score: 0.66
+Loss Precision: 0.66 | Recall: 0.67 | F1-score: 0.66
+
+| Model: DecisionTree
+Accuracy: 63.86%
+Win Precision: 0.64 | Recall: 0.65 | F1-score: 0.64
+Loss Precision: 0.64 | Recall: 0.63 | F1-score: 0.63
+
+
+=== [ML Fold 5] Predicting on seasons: [2022, 2023, 2024] ===
+
+
+| Model: RandomForest
+Accuracy: 66.83%
+Win Precision: 0.67 | Recall: 0.68 | F1-score: 0.67
+Loss Precision: 0.67 | Recall: 0.66 | F1-score: 0.67
+
+| Model: LogisticRegression
+Accuracy: 66.80%
+Win Precision: 0.66 | Recall: 0.68 | F1-score: 0.67
+Loss Precision: 0.67 | Recall: 0.65 | F1-score: 0.66
+
+| Model: LinearSVC
+Accuracy: 66.83%
+Win Precision: 0.67 | Recall: 0.68 | F1-score: 0.67
+Loss Precision: 0.67 | Recall: 0.65 | F1-score: 0.66
+
+| Model: XGBoost
+Accuracy: 66.06%
+Win Precision: 0.66 | Recall: 0.66 | F1-score: 0.66
+Loss Precision: 0.66 | Recall: 0.66 | F1-score: 0.66
+
+| Model: DecisionTree
+Accuracy: 64.85%
+Win Precision: 0.66 | Recall: 0.63 | F1-score: 0.64
+Loss Precision: 0.64 | Recall: 0.67 | F1-score: 0.66
+
+
+
+==================== ML Aggregated Accuracy ====================
+model
+LogisticRegression    67.013592
+LinearSVC             67.005825
+RandomForest          66.842718
+XGBoost               65.557282
+DecisionTree          63.172816
+Name: accuracy, dtype: float64
+
+
+==================== ML Aggregated Accuracy ====================
+model
+LogisticRegression    56.407767
+LinearSVC             56.341748
+XGBoost               54.792233
+RandomForest          53.720388
+DecisionTree          53.693204
+Name: accuracy, dtype: float64
