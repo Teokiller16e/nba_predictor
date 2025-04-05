@@ -157,11 +157,3 @@ DecisionTree          63.172816
 Name: accuracy, dtype: float64
 
 
-==================== ML Aggregated Accuracy ====================
-model
-LogisticRegression    56.407767
-LinearSVC             56.341748
-XGBoost               54.792233
-RandomForest          53.720388
-DecisionTree          53.693204
-Name: accuracy, dtype: float64
